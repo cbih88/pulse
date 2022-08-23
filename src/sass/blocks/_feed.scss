@@ -1,5 +1,33 @@
 .feed{
     min-height: 950px;
-    padding: 70px 0 53px 0;
+    padding: 3px 0 53px 0;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__block{
+        display: flex;
+        padding: 53px 0 50px 0;
+        &__img{
+            width: 169px;
+            height: 169px;
+            margin-right: 63px;
+            margin-top: 20px;
+        }
+        &__name{
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        span{
+            color: #646464;
+        }
+        hr{
+            height: 1px;
+            background-color: #f6f6f6;
+        }
+    }
 }
+
+
+
